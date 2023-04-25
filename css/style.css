@@ -1,0 +1,436 @@
+/*Navegação*/
+.navbar-nav .nav-link{
+	color: white;
+}
+
+.navbar-nav .nav-link:hover{
+	color: #1DB954;
+}
+
+.navbar-toggler{
+	border-color: rgba(255, 255, 255, 0.5);	
+}
+
+.divisor{
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+header{
+	background-color: black;
+	font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+/*Botões*/
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 13px 23px;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 700;
+	margin: 20px 5px;
+}
+
+.btn-black{
+	background: black;
+}
+
+.btn-black:hover{
+	color: white;
+	transform: scale(1.1);
+}
+
+.btn-blue{
+	background: #1D75DE;
+	border: 2px solid white;
+}
+
+.btn-blue:hover{
+	color: white;
+	transform: scale(1.1);
+}
+
+/*Layout*/
+html, body{
+    height: 100%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: spotify-circular,Helvetica,Arial,sans-serif;
+}
+
+hr{
+	border-color: black;
+}
+
+#section1{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+#plans{
+	background-color: #efefef;
+	display: block;
+	padding-bottom: 50px;
+}
+
+#section3{
+	margin: 0px auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    color: black;
+    padding: 35px 15px;
+}
+
+#plans .paymethods{
+	display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    align-content: center;
+
+}
+
+#plans .cards-list{
+	display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.cards{
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 1px 1px 6px 8px #ccc;
+	background-color: rgb(255, 255, 255);
+	width: 269px;
+	max-width: 400px;
+	padding-left: 16px;
+	padding-right: 16px;
+	height: 788px;
+	padding: 10px;
+	align-items: flex-start;
+}
+
+
+
+.cards span{
+	font-size: 13px;
+	font-weight: bold;
+	border-radius: 5px;
+	letter-spacing: 1px;
+}
+
+#plans .cards ul{
+	height: 369px;
+	padding: 10px;
+}
+
+#plans .cards button{
+	background-color: black;
+	border-radius: 500px;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 16px 60px;
+	line-height: 16px;
+	font-size: 14px;
+}
+
+.cards button:hover{
+	transform: scale(1.03);
+}
+
+
+
+/*Tipografia*/
+
+.titulo1 h1{
+	width: auto;
+	font-weight: 900;
+	font-size: 38px;
+	line-height: 1.2em;
+
+}
+
+.subtitulo1 h2{
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.5em;
+	padding-top:30px; 
+	padding-bottom: 10px;
+}
+
+
+.titulo2 h2{
+    font-size: 30px;
+    line-height: var(32px);
+    font-weight: 900;
+    padding: 0px;
+    max-width: 670px;
+    margin: 75px auto 30px auto;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.subtitulo2{
+	margin-top: 20px;
+	margin-left: 15px;
+	color: black;
+}
+
+.subtitulo2 span{
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+
+.subtitulo p{
+	margin-top: 15px;
+}
+
+#vantagens h4{
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    letter-spacing:  -0.03em;
+}
+
+#vantagens p{
+    text-align: left;
+    font-size: 1.0em;
+}
+
+#plans .titulo3 {
+	font-size: 32px;
+    font-weight: bold;
+    letter-spacing: -1.28px;
+    line-height: 1;
+    text-align: center;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+#plans h2{
+	font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-left: 5px;
+    padding: 0px;
+}
+
+#plans h3{
+	font-size: 16px;
+    font-weight: normal;
+    margin: 10px 0px;
+    text-align: center;
+    padding: 0px;
+}
+
+#plans .cards p{
+	color: black;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+
+#plans ul li{
+	line-height: 20px;
+	display: block;
+}
+
+#plans .cards .termos{
+	margin-top: 12px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: 400;
+}
+
+/* Rodapé */
+
+footer{
+	background: #000;
+	padding: 90px 0 40px 0;
+
+}
+
+footer h4{
+	color: #919496;
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+footer .navbar-nav a{
+	color: #fff;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+footer .navbar-nav li{
+	margin-bottom: 15px;
+}
+
+
+footer .navbar-nav a:hover{
+	color: #1DB954;
+	text-decoration: none;
+}
+
+
+footer ul{
+	list-style: none;
+}
+
+footer ul li img{
+	float: right;
+	margin: 0 10px;
+}
+
+.adicionais ul{
+	margin-top: 100px;
+	list-style: none;
+	display: flex;
+	justify-content: flex start;
+}
+
+.adicionais a{
+	color: #fff;
+	font-size: 0.8em;
+	margin-right: 10px;
+}
+
+.adicionais a:hover{
+	color: #1DB954;
+	text-decoration: none;
+}
+
+
+/*Media queries*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+	.btn-custom{
+		display: block;
+	}
+	.cards{
+		width: auto;
+		height: auto;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+
+	#plans .cards ul{
+		height: auto;
+		padding: 32px 20px 16px 20px;
+	}
+
+	#plans .cards button{
+		width: auto;
+
+	}
+ 	
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	h1{
+		font-size: 3em;
+	}
+
+	.btn-custom{
+		display: block;
+	}
+	.cards{
+		width: auto;
+		height: auto;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+
+	#plans .cards ul{
+		height: auto;
+		padding: 32px 20px 16px 20px;
+	}
+
+	#plans .cards button{
+		width: 360px;
+
+	}
+	
+ 
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.cards{
+		width: auto;
+		height: auto;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+
+	#plans .cards ul{
+		height: auto;
+		padding: 32px 20px 16px 20px;
+	}
+
+	#plans .cards button{
+		width: 360px;
+	}
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	img{
+		width: 140px;
+		height: 140px;
+	}
+	
+	.cards{
+		width: auto;
+		height: auto;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+
+	#plans .cards button{
+		width: 360px;
+
+	}
+
+	#plans .cards ul{
+		padding: 32px 20px 16px 20px;
+		height: auto;
+	}
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.cards{
+		margin: 0 10px 0 0;
+	}
+	
+ }
